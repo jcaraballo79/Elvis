@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF2C34FF2FD22CC200FEF9F8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CF2C34FE2FD22CBC00FEF9F8 /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CF2C34EB2FD22C4900FEF9F8 /* Elvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2C34FE2FD22CBC00FEF9F8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		CF2C34E22FD22C4900FEF9F8 = {
 			isa = PBXGroup;
 			children = (
+				CF2C34FE2FD22CBC00FEF9F8 /* Readme.md */,
 				CF2C34ED2FD22C4900FEF9F8 /* Elvis */,
 				CF2C34EC2FD22C4900FEF9F8 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2C34FF2FD22CC200FEF9F8 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
